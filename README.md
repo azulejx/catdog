@@ -14,8 +14,47 @@ This is a web application that takes a number from a user and returns a range of
   * **Example Input:** 3
   * **Example Output:** [1, 2, 3]
 
-* It can list the count up to the number provided by the user.
+* It can print as a list the count up to the number provided by the user.
+  * **Example Input:** 3
+  * **Example Output:**   
+      * 1
+      * 2
+      * 3
 
+* It can identify numbers divisible by 3 and substitute them with "purr".
+  * **Example Input:** 3
+  * **Example Output:**
+      * 1
+      * 2
+      * purr
+
+* It can identify numbers divisible by 5 and substitute them with "woof".
+  * **Example Input:** 5
+  * **Example Output:**
+      * 1
+      * 2
+      * purr
+      * 4
+      * woof
+
+* It can identify numbers divisible by 15 and substitute them with "CatDog!".
+  * **Example Input:** 15
+  * **Example Output:**
+      * 1
+      * 2
+      * purr
+      * 4
+      * woof
+      * purr
+      * 7
+      * 8
+      * purr
+      * woof
+      * 11
+      * purr
+      * 13
+      * 14
+      * CatDog!
 
 ## Setup/Installation Requirements
 

@@ -4,7 +4,22 @@ var numberList = [];
 
 function countNumbers(inputNumber) {
   for (var index = 1; index <= inputNumber; index ++) {
-    numberList.push(index);
+
+    if (index % 15 === 0) {
+      numberList.push("CatDog!");
+    }
+
+    else if (index % 3 === 0) {
+      numberList.push("purr");
+    }
+
+    else if (index % 5 === 0) {
+      numberList.push("woof");
+    }
+
+    else {
+      numberList.push(index);
+    }
   };
 };
 
