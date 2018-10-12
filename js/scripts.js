@@ -14,9 +14,14 @@ $(document).ready(function() {
     event.preventDefault();
 
     var inputNumber = parseInt($("input#number").val());
-    countNumbers(inputNumber);
+    var printList = countNumbers(inputNumber);
 
-    console.log(numberList);
+    numberList.forEach(function(oneLine){
+      $("ul#list").append("<li>" + oneLine + "</li>")
+
+    });
+
+    // console.log(numberList);
   });
 
 });

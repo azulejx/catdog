@@ -8,9 +8,14 @@ This is a web application that takes a number from a user and returns a range of
 
 ## Specifications
 
+* It can collect number provided by the user.
+
 * It can count up to the number provided by the user.
   * **Example Input:** 3
   * **Example Output:** [1, 2, 3]
+
+* It can list the count up to the number provided by the user.
+
 
 ## Setup/Installation Requirements
 
