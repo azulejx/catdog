@@ -27,6 +27,7 @@ function countNumbers(inputNumber) {
 $(document).ready(function() {
   $("form").submit(function(event) {
     event.preventDefault();
+    $("ul#list").empty();
 
     var inputNumber = parseInt($("input#number").val());
     var printList = countNumbers(inputNumber);
