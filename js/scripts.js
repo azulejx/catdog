@@ -37,7 +37,7 @@ $(document).ready(function() {
       $("ul#list").append("<li>" + oneLine + "</li>");
 
     });
-
+    $("ul#list").show();
   });
 
 });
